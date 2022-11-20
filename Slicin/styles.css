@@ -1,0 +1,167 @@
+body{
+    background-color: #23123a;
+    margin: 0;
+    font-family: 'Proxima Nova';
+}
+
+.topNav{
+    background-color: white;
+    padding: 20px !important;  
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.topNav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 80%;
+}
+.mainHeader{
+    padding: 0px;
+    background-image: url("/assets/Screen\ Shot\ 2022-11-17\ at\ 1.17.45\ PM.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 82vh;
+}
+.mainHeader h1{
+    color: white;
+    font-size: 10em;
+    font-weight: 900;
+    margin: 50px;
+}
+section > *{
+    padding: 0px 80px;
+}
+.creditOpp{
+    background-color: #f1f5f8;
+    height: 80vh;
+}
+.creditOpp h2{
+    font-size: 3em;
+    color: #373737;
+    padding-top: 50px;
+}
+.card{
+    margin: 20px 80px;
+    padding: 50px 150px;
+    background-color: white;
+}
+.card h3{
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #373737;
+}
+.card h3 > sup{
+    font-size: 0.2em;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.offer-status{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 25%;
+}
+.offer-status .status{
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #59d8d1;
+    color: white;
+    border-radius: 50px;
+}
+.offer-status img{
+    height: auto;
+    width: 200px;
+}
+.apply-now{
+    color: white;
+    font-size: 1.2em;
+    background-color: #fa6e3d;
+    font-family: 'Proxima Nova';
+    border: 0;
+    width: 25%;
+    border-radius: 8px;
+    font-weight: 600;
+    height: 50px;
+}
+.offer-desc{
+    padding: 0px 60px;
+    line-height: 40px;
+    width: 60%;
+}
+.offer-desc ul li{
+    font-size: 1.5em;
+    color: #373737;
+}
+.card-footer{
+    margin-top: 40px;
+    padding: 40px 0px;
+    border-top: 1px solid #373737;
+    color: #373737;
+}
+.card-footer a{
+    font-size: 1.5em;
+    color: #1194f6;
+}
+
+@media (max-width: 920px) {
+    .topNav{
+        font-size: 10px;
+    }
+    .mainHeader h1{
+        font-size: 70px;
+        word-wrap: break-word;
+        margin: 50px 0px;
+    }
+    section > *{
+        padding: 0px 30px;
+    }
+    .creditOpp h2{
+        font-size: 20px;
+        color: #373737;
+        padding-top: 50px;
+    }
+    .card{
+        margin: 0px;
+        padding: 5px 15px;
+        background-color: white;
+    }
+    .reviews{
+        display: none;
+    }
+    .offer-status{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .offer-desc ul li{
+        font-size: 1em;
+        color: #373737;
+    }
+     
+    .offer-desc{
+        width: 100%;
+        padding: 0px 0px;
+        line-height: 40px;
+    }
+    .apply-now{
+        width: 100%;
+    }
+}
