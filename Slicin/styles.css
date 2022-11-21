@@ -1,3 +1,16 @@
+@font-face {
+
+    font-family: 'Proxima Nova';
+    
+    src: url('fonts/Proxima-Nova-Font.otf?') format('otf');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
+    
 body{
     background-color: #23123a;
     margin: 0;
@@ -17,9 +30,14 @@ body{
     margin: 0 auto;
     width: 80%;
 }
+
+.topNav ul li:hover{
+    cursor: pointer;
+}
+
 .mainHeader{
     padding: 0px;
-    background-image: url("/assets/Screen\ Shot\ 2022-11-17\ at\ 1.17.45\ PM.png");
+    background-image: url("assets/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,6 +117,9 @@ section > *{
     font-weight: 600;
     height: 50px;
 }
+.apply-now:hover{
+    cursor: pointer;
+}
 .offer-desc{
     padding: 0px 60px;
     line-height: 40px;
@@ -119,9 +140,17 @@ section > *{
     color: #1194f6;
 }
 
+.checked {
+    color: #59d8d1;
+  }
+  
 @media (max-width: 920px) {
     .topNav{
         font-size: 10px;
+    }
+    .topNav ul{
+        padding: 0px;
+
     }
     .mainHeader h1{
         font-size: 70px;
